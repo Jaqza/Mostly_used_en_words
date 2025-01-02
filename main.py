@@ -5,7 +5,7 @@ word = pd.read_csv(".//data/data.csv")
 BACKGROUND_COLOR = "#B1DDC6"
 POINTS = 0
 def background_returns():
-    canvas.itemconfigg(background , image= back_img)
+    canvas.itemconfig(background , image= back_img)
 
 def background_switch():
     canvas.itemconfig(background , image= front_img)
